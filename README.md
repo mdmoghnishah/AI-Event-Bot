@@ -192,6 +192,9 @@ Contributions to this project are highly appreciated! To contribute, please foll
     * Reference any related issues.
     * Ensure that all checks pass.
 
+## 🚀 Project link live
+https://ai-event-assistant-gilt.vercel.app/
+
 We will review your pull request and provide feedback. Once approved, your changes will be merged into the main repository. Thank you for your contribution!
 ---
 
