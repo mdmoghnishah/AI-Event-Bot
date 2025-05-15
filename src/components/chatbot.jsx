@@ -25,14 +25,9 @@ const ChatBot = () => {
  
   // Fetch messages on load
   useEffect(() => {
-    const fetchMessages = async () => {
-      const q = query(messagesRef, orderBy("timestamp", "asc"));
-      const snapshot = await getDocs(q);
-      const msgs = snapshot.docs.map(doc => doc.data());
-      setMessages(msgs);
-    };
-    fetchMessages();
-  }, []);
+  //  clear the messages from local state on every load
+  setMessages([]);
+}, []);
 
   const handleSend = async () => {
     if (!input.trim()) return;
